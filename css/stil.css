@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-attachment: fixed;
+    background-image: url("../images/bg_body.jpg")
+    
+     /* background-image: url("../images/bg_body.jpg"), url("../images/jerry2.jpg");
+     background-repeat: no-repeat, no-repeat;  */
+    /*background-size: cover; */
+     /* background-position: top right, top left;  */
+    /* background-image: url("../images/bg_body.jpg") no-repeat %50 center;
+     */
+     
+}
+#container{
+    width: 800px;
+    height: 1000px;
+    background-color:white;
+    margin-right: auto;
+    margin-left: auto;  
+   
+}
+/* #container header{ birden fazla div etiketi varsa kombinasyon kullanabiliriz} */
+header img{
+    width:800px ;
+    height: 250px; 
+    display: block;
+}
+nav{
+    /* width: 800px; */
+    height: 50px;
+    /*background-image: radial-gradient(circle,red, yellow, black);*/
+    /*background-image: linear-gradient(to right,red, yellow,);*/
+    background-image: linear-gradient(rgb(222, 86, 86), rgb(163, 19, 9));
+
+
+
+}
+nav ol {
+    list-style-type: none;
+    
+}
+nav ol li{
+    display: inline-block;
+    /* width: 130px;
+    height: 40px;
+    margin-right: 10px;
+    padding-top: 10px; */
+        
+}
+nav ol li a{
+    color: white;
+    line-height: 50px;
+    display: block;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+nav ol a:hover{
+    color: blue;
+    background-color: white;
+}
+main{
+    padding: 50px 20px ;
+}
+#bolum1 img{
+    width: 230px;
+    height: 230px;
+    display: block;
+    /*border: 5px solid yellow;
+    border-radius: 55px;*/
+}
+#bolum1 figure{
+    width: 240px;
+    /* border-color: yellow;
+    border-style: ridge;
+    border-width: 5px;
+    border-left-color: ;
+    border-left-style: ; */
+    /*border: 5px yellow;*/  
+    /*border-right: 5px solid red; */
+    border: 5px solid yellow;
+    border-radius: 5px;
+    float: left;
+}
+#bolum1 article{
+    width: 500px;
+    height: 240px;
+    float: right;
+    margin-bottom: 50px;
+}
+#bolum2{
+    
+    height: 260px;    
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+}
+#bolum2 div{
+    width: 240px;
+    height: 240px;
+    background-color: rgb(192, 56, 56);
+   /* text-align: center;*/
+   
+}
+#bolum2 #duyuru{
+    width: 760px;
+    height: 20px;
+    background-color: rgb(176, 176, 176);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+
+}
+#bolum2 img{
+    width: 230px;
+    height: 200px;
+    margin: 5px 5px 0px 5px;
+}
+#bolum2 a{
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    
+    /* height: 40px;
+    padding-top: 8px; */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+
+
